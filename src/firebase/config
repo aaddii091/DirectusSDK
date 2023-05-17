@@ -1,0 +1,5 @@
+import { Directus } from '@directus/sdk'
+
+const directus = new Directus('http://170.187.254.205:8055/')
+
+export default directus
